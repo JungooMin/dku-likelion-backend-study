@@ -1,9 +1,8 @@
 # J2-week06 | PostgreSQL부터 AWS·Terraform까지
 
-> **학습 주제:** AWS와 Terraform을 활용한 인프라 구축 및 Spring Boot 서비스 배포  
-> **학습 범위:** 1~12강 실습 및 학습 / 13~20강 개념 학습  
+> **학습 주제:** AWS와 Terraform을 활용한 인프라 구축 및 Spring Boot 서비스 배포
 > **실습 진행:** PostgreSQL 연결, Spring Boot 실행, AWS CLI 설치, Terraform 초기화  
-> **미실습:** AWS EC2 생성, 운영 서버 구성, 수동·자동 배포
+> **개념 학습:** AWS EC2 생성, 운영 서버 구성, 수동·자동 배포
 
 ## 1. 데이터베이스 전환과 개발 환경
 
@@ -550,7 +549,7 @@ MySQL은 서비스 데이터를 영속적으로 저장하고, Redis는 여러 �
 - **GitHub Actions**는 빌드 및 배포 과정을 자동화할 수 있다.
 - **무중단 배포**에서는 새로운 컨테이너가 정상적으로 실행된 후 트래픽을 전환하는 과정이 중요하다.
 
-이번 실습에서는 **PostgreSQL 연결 및 Spring Boot 실행, AWS CLI 설치, Terraform 프로젝트 초기화까지 진행**했다.
+이번 실습에서는 PostgreSQL 연결 및 Spring Boot 실행, AWS CLI 설치, Terraform 프로젝트 초기화까지 진행했다.
 
 이후 EC2 생성과 Docker 기반 서비스 배포, Redis 및 Nginx 설정, CI/CD와 무중단 배포는 개념과 전체적인 실습 절차를 중심으로 학습했다.
 
