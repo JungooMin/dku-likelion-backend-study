@@ -42,3 +42,6 @@ db_dev.mv.db
 db_dev.trace.db
 src/main/generated
 apiV1.json
+# Frontend environment files
+/front/.env
+/front/.env.production
